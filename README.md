@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/joao-val/Toodoo-BlastOff)
+
 # Toodoo-BlastOff
 Repositório feito para organizar todas as demandas no BlastOff
 
