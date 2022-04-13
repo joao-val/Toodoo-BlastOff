@@ -1,13 +1,13 @@
 programa
 {
 	inclua biblioteca Tipos --> tp
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
 		real salario, financiamento
 		cadeia salary, financing
-		logico teste
+		logico teste1, teste2
 		
 		escreva("Verificar possibilidade de financiamento!\n\n")
 		
@@ -20,10 +20,10 @@ programa
 			escreva("Digite o valor que deseja no financiamento:\n")
 			leia(financing)
 
-			teste = (tp.cadeia_e_real(salary) ou tp.cadeia_e_inteiro(salary, 10))
-			teste = (tp.cadeia_e_real(financing) ou tp.cadeia_e_inteiro(financing, 10))
+			teste1 = (tp.cadeia_e_real(salary) ou tp.cadeia_e_inteiro(salary, 10))
+			teste2 = (tp.cadeia_e_real(financing) ou tp.cadeia_e_inteiro(financing, 10))
 			limpa()
-		}enquanto (teste == falso ou (tp.cadeia_para_real(salary) < 0 ou tp.cadeia_para_real(financing) < 0))
+		}enquanto (( teste1 e teste2) == falso ou (tp.cadeia_para_real(salary) < 0 ou tp.cadeia_para_real(financing) < 0))
 
 		salario = tp.cadeia_para_real(salary)
 		financiamento = tp.cadeia_para_real(financing)
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 901; 
+ * @POSICAO-CURSOR = 207; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

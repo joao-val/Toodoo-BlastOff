@@ -1,13 +1,13 @@
 programa
 {
 	inclua biblioteca Matematica --> mat
-	inclua biblioteca Tipos --> tp
+	inclua biblioteca Tipos --> tp
 	
 	funcao inicio()
 	{
 		cadeia saldo, cheque
 		real analise, check
-		logico teste
+		logico teste1, teste2
 		
 		escreva("Operação para sacar um cheque.\n\n")
 		
@@ -20,10 +20,10 @@ programa
 			escreva("Valor do cheque:\n")
 			leia(cheque)
 
-			teste = (tp.cadeia_e_real(saldo) ou tp.cadeia_e_inteiro(saldo, 10))
-			teste = (tp.cadeia_e_real(cheque) ou tp.cadeia_e_inteiro(cheque, 10))
+			teste1 = (tp.cadeia_e_real(saldo) ou tp.cadeia_e_inteiro(saldo, 10))
+			teste2 = (tp.cadeia_e_real(cheque) ou tp.cadeia_e_inteiro(cheque, 10))
 			limpa()
-		}enquanto (teste == falso ou tp.cadeia_para_real(saldo) < 0 ou tp.cadeia_para_real(saldo) < 0)
+		}enquanto ((teste1 e teste2) == falso ou (tp.cadeia_para_real(saldo) <=0 ou tp.cadeia_para_real(cheque) <=0))
 
 		analise = tp.cadeia_para_real(saldo) - tp.cadeia_para_real(cheque)
 		check = tp.cadeia_para_real(cheque)
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 819; 
+ * @POSICAO-CURSOR = 670; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
