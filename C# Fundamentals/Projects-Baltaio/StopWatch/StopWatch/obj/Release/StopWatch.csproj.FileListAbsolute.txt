@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\bin\Release\StopWatch.exe.config
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\bin\Release\StopWatch.exe
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\bin\Release\StopWatch.pdb
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Release\StopWatch.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Release\StopWatch.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Release\StopWatch.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Release\StopWatch.exe
+L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Release\StopWatch.pdb

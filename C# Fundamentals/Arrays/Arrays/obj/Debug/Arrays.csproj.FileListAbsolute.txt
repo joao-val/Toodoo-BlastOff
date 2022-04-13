@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\Arrays\Arrays\bin\Debug\Arrays.exe.config
+L:\Joao\C#\Balta.io\Arrays\Arrays\bin\Debug\Arrays.exe
+L:\Joao\C#\Balta.io\Arrays\Arrays\bin\Debug\Arrays.pdb
+L:\Joao\C#\Balta.io\Arrays\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Arrays\Arrays\obj\Debug\Arrays.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Arrays\Arrays\obj\Debug\Arrays.exe
+L:\Joao\C#\Balta.io\Arrays\Arrays\obj\Debug\Arrays.pdb

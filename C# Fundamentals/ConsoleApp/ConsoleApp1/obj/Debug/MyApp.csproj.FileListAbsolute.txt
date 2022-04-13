@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\obj\Debug\MyApp.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\obj\Debug\MyApp.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\obj\Debug\MyApp.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+L:\Joao\C#\Balta.io\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

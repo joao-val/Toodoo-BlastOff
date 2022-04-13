@@ -1,0 +1,16 @@
+L:\Joao\C#\Balta.io\Calculator\Calculator\bin\Debug\Calculator.exe.config
+L:\Joao\C#\Balta.io\Calculator\Calculator\bin\Debug\Calculator.exe
+L:\Joao\C#\Balta.io\Calculator\Calculator\bin\Debug\Calculator.pdb
+L:\Joao\C#\Balta.io\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Calculator\Calculator\obj\Debug\Calculator.exe
+L:\Joao\C#\Balta.io\Calculator\Calculator\obj\Debug\Calculator.pdb
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+L:\Joao\C#\Balta.io\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb

@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\bin\Debug\Structs-Balta-io.exe.config
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\bin\Debug\Structs-Balta-io.exe
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\bin\Debug\Structs-Balta-io.pdb
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\obj\Debug\Structs-Balta-io.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\obj\Debug\Structs-Balta-io.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\obj\Debug\Structs-Balta-io.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\obj\Debug\Structs-Balta-io.exe
+L:\Joao\C#\Balta.io\Structs-Balta-io\Structs-Balta-io\obj\Debug\Structs-Balta-io.pdb

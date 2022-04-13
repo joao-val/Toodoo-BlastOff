@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\bin\Debug\ChangingArrayValues.exe.config
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\bin\Debug\ChangingArrayValues.exe
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\bin\Debug\ChangingArrayValues.pdb
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\obj\Debug\ChangingArrayValues.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\obj\Debug\ChangingArrayValues.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\obj\Debug\ChangingArrayValues.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\obj\Debug\ChangingArrayValues.exe
+L:\Joao\C#\Balta.io\ChangingArrayValues\ChangingArrayValues\obj\Debug\ChangingArrayValues.pdb

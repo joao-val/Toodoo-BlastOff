@@ -1,0 +1,16 @@
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\bin\Debug\EditorHtml.exe.config
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\bin\Debug\EditorHtml.exe
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\bin\Debug\EditorHtml.pdb
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\obj\Debug\EditorHtml.exe
+L:\Joao\C#\Balta.io\EditorHtml\EditorHtml\obj\Debug\EditorHtml.pdb
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\bin\Debug\EditorHtml.exe.config
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\bin\Debug\EditorHtml.exe
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\bin\Debug\EditorHtml.pdb
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\obj\Debug\EditorHtml.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\obj\Debug\EditorHtml.exe
+L:\Joao\C#\Balta.io\Projects\EditorHtml\EditorHtml\obj\Debug\EditorHtml.pdb

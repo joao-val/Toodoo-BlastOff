@@ -1,0 +1,8 @@
+L:\Joao\C#\Balta.io\Teste\Teste\bin\Debug\Teste.exe.config
+L:\Joao\C#\Balta.io\Teste\Teste\bin\Debug\Teste.exe
+L:\Joao\C#\Balta.io\Teste\Teste\bin\Debug\Teste.pdb
+L:\Joao\C#\Balta.io\Teste\Teste\obj\Debug\Teste.csproj.AssemblyReference.cache
+L:\Joao\C#\Balta.io\Teste\Teste\obj\Debug\Teste.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Balta.io\Teste\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Balta.io\Teste\Teste\obj\Debug\Teste.exe
+L:\Joao\C#\Balta.io\Teste\Teste\obj\Debug\Teste.pdb
