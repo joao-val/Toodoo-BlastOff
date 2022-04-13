@@ -1,13 +1,13 @@
 programa
 {
 	inclua biblioteca Matematica --> mat
-	inclua biblioteca Tipos --> tp
+	inclua biblioteca Tipos --> tp
 	
 	funcao inicio()
 	{
 		cadeia km1, km2, litro 
 		real media
-		logico teste
+		logico teste1, teste2, teste3
 		escreva("Média de Km/L do carro\n")
 		
 		faca
@@ -22,11 +22,11 @@ programa
 		escreva("Digite a quantidade de gasolina gasta em L:\n")
 		leia(litro)
 
-		teste = (tp.cadeia_e_real(km1) ou tp.cadeia_e_inteiro(km1, 10))
-		teste = (tp.cadeia_e_real(km2) ou tp.cadeia_e_inteiro(km2, 10))
-		teste = (tp.cadeia_e_real(litro) ou tp.cadeia_e_inteiro(litro, 10))
+		teste1 = (tp.cadeia_e_real(km1) ou tp.cadeia_e_inteiro(km1, 10))
+		teste2 = (tp.cadeia_e_real(km2) ou tp.cadeia_e_inteiro(km2, 10))
+		teste3 = (tp.cadeia_e_real(litro) ou tp.cadeia_e_inteiro(litro, 10))
 		limpa()
-		}enquanto (teste == falso)
+		}enquanto ((teste1 e teste2 e teste3) == falso)
 
 		media = (tp.cadeia_para_real(km2) - tp.cadeia_para_real(km1))/tp.cadeia_para_real(litro)
 		escreva("Você fez ", mat.arredondar(media, 2), "Km em média, por litro de gasolina!")
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 224; 
+ * @POSICAO-CURSOR = 726; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
