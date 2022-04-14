@@ -26,7 +26,6 @@ namespace Tarefa_04
                 Console.WriteLine("Each kilogram over 50 is subject to a fine of 4R$!");
 
                 kilograms = Console.ReadLine();
-
                 test1 = double.TryParse(kilograms, out double i);
 
             }while (test1 == false);
