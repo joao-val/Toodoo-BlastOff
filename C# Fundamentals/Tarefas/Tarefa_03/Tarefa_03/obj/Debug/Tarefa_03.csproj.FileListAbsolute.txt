@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.exe.config
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.exe
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.pdb
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.exe
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.exe.config
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\bin\Debug\Tarefa_03.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_03\Tarefa_03\obj\Debug\Tarefa_03.pdb
