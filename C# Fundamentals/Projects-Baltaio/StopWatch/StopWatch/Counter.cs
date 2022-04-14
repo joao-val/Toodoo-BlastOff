@@ -19,6 +19,7 @@ namespace StopWatch
             var test1 = false;
             var test2 = false;
             var test3 = false;
+            
             do
             {
                 Console.Clear();
@@ -35,8 +36,7 @@ namespace StopWatch
                 }
 
                 test1 = ((data.Length < 2) == false);
-                test2 = Int32.TryParse(data.Substring(0, data.Length - 1), out int i);
-                
+                test2 = Int32.TryParse(data.Substring(0, data.Length - 1), out int i); 
             } while ((test1 && test2) == false);
             
             char type = char.Parse(data.Substring(data.Length - 1, 1));

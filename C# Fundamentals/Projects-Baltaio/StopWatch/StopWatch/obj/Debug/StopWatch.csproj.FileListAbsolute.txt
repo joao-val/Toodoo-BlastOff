@@ -14,3 +14,11 @@ L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.Sugg
 L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
 L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.exe
 L:\Joao\C#\Balta.io\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+L:\Joao\C#\Toodoo\BlastOff\Toodoo-BlastOff\C# Fundamentals\Projects-Baltaio\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
