@@ -54,7 +54,6 @@ namespace Tarefa_07
                     var result = r;
                     if (Math.Ceiling(total[i]) == result)
                     {
-                        Console.WriteLine(r);
                         result = (r - 200) / 100;
                         position[result] += 1;
                     }
@@ -64,7 +63,7 @@ namespace Tarefa_07
 
             for (int i = 0; i < 8; i++)
             {
-                Console.WriteLine(position[i]+ " sellers" + " $" + baseSalary + " - $" + (baseSalary + 99));
+                Console.WriteLine(position[i]+ " sellers between" + " $" + baseSalary + " - $" + (baseSalary + 99));
                 baseSalary = baseSalary + 100;
             }
             Console.WriteLine(position[8] + " $" + baseSalary + " onward");

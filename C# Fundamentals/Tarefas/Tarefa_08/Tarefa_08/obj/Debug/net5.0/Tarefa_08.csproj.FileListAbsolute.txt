@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.deps.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.runtimeconfig.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.runtimeconfig.dev.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\bin\Debug\net5.0\Tarefa_08.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.AssemblyInfoInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.AssemblyInfo.cs
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\refint\Tarefa_08.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\Tarefa_08.genruntimeconfig.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Tarefas\Tarefa_08\Tarefa_08\obj\Debug\net5.0\ref\Tarefa_08.dll
