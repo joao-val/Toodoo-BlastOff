@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Balta.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         public Module()
         {
