@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\Joao\\C#\\Toodoo\\BlastOff\\POO\\C#\\Listas - Parte 2\\Payments\\Generics.csproj",
-      "projectName": "Generics",
-      "projectPath": "L:\\Joao\\C#\\Toodoo\\BlastOff\\POO\\C#\\Listas - Parte 2\\Payments\\Generics.csproj",
+      "projectUniqueName": "L:\\Joao\\C#\\Toodoo\\BlastOff\\POO\\C#\\Listas - Parte 2\\Payments\\Listas.csproj",
+      "projectName": "Listas",
+      "projectPath": "L:\\Joao\\C#\\Toodoo\\BlastOff\\POO\\C#\\Listas - Parte 2\\Payments\\Listas.csproj",
       "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
       "outputPath": "L:\\Joao\\C#\\Toodoo\\BlastOff\\POO\\C#\\Listas - Parte 2\\Payments\\obj\\",
       "projectStyle": "PackageReference",
