@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Balta.ContentContext
+namespace Balta.SharedContext
 {
     public abstract class Base : Notifiable
     {
