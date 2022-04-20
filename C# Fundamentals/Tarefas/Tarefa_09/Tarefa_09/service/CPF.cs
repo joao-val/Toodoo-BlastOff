@@ -33,7 +33,6 @@ namespace Tarefa_09
             string numberFormat;
             var test = false;
             var test2 = false;
-            var test3 = false;
 
             switch (int.Parse(option))
             {
@@ -68,7 +67,7 @@ namespace Tarefa_09
                     show();
                     break;
 
-                case 0: Environment.Exit(0); break;
+                case 2: Environment.Exit(0); break;
             }
 
         }

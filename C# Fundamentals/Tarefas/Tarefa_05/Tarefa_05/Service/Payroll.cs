@@ -30,7 +30,8 @@ namespace Tarefa_05
                 Console.WriteLine("How many hours do you work per month?");
                 hoursPerMonth = Console.ReadLine();
 
-                test1 = double.TryParse(valuePerHour, out double i) && double.TryParse(hoursPerMonth, out i);
+                test1 = double.TryParse(valuePerHour, out double i) && double.TryParse(hoursPerMonth, out i)
+                    && (double.Parse(valuePerHour) > 0 && double.Parse(hoursPerMonth) > 0);
             } while (test1 == false);
 
             grossSalary = double.Parse(valuePerHour) * double.Parse(hoursPerMonth);
@@ -75,6 +76,12 @@ namespace Tarefa_05
             Console.WriteLine("Total discounts: R$" + Math.Round(discount, 2));
             Console.WriteLine("Net Salary: R$" + Math.Round(netSalary, 2));
             Console.WriteLine();
+            Console.ReadKey();
+
+            Console.Clear();
+            Console.WriteLine("Type -1 to exit, any other key to continue:");
+            if (Console.ReadLine() == "-1") Environment.Exit(0);
+            discounts();
         }
     }
 }

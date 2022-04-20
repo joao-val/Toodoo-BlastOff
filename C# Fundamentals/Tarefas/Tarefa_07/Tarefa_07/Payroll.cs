@@ -29,7 +29,7 @@ namespace Tarefa_07
                 
                 Console.WriteLine("Enter the gross sales amount for seller " + (i + 1) + ":");
                 sales[i] = Console.ReadLine();
-                test = double.TryParse(sales[i], out double x);
+                test = double.TryParse(sales[i], out double x) && double.Parse(sales[i]) > 0;
 
                 if(test == false)
                 {
@@ -40,7 +40,7 @@ namespace Tarefa_07
 
                 total[i] = baseSalary + (double.Parse(sales[i]) * 0.09);
                 
-                if (total[i] > 1000)  position[8] += 1;
+                if (total[i] >= 1000)  position[8] += 1;
             }
             Console.Clear();
 
@@ -67,8 +67,12 @@ namespace Tarefa_07
                 baseSalary = baseSalary + 100;
             }
             Console.WriteLine(position[8] + " $" + baseSalary + " onward");
-
             Console.ReadKey();
+
+            Console.Clear();
+            Console.WriteLine("Type -1 to exit, any other key to continue:");
+            if (Console.ReadLine() == "-1") Environment.Exit(0);
+            sellers();
         }
 
     }

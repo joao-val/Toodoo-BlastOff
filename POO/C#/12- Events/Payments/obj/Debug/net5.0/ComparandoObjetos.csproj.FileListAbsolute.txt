@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.exe
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.deps.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.runtimeconfig.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.runtimeconfig.dev.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\bin\Debug\net5.0\ComparandoObjetos.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.AssemblyInfoInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.AssemblyInfo.cs
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\refint\ComparandoObjetos.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ComparandoObjetos.genruntimeconfig.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\10- Comparando Objetos\Payments\obj\Debug\net5.0\ref\ComparandoObjetos.dll

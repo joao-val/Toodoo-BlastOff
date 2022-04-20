@@ -10,7 +10,6 @@ namespace Tarefa_04
     {
         static void Main(string[] args)
         {
-
             Fishing fish = new Fishing();
 
             fish.weight();

@@ -13,7 +13,7 @@ namespace Tarefa_03
         {
         }
 
-        public void test()
+        public void triangleTest()
         {
             var test1 = false;
             var test2 = false;
@@ -26,6 +26,7 @@ namespace Tarefa_03
                 Console.Clear();
                 Console.WriteLine("Enter the value in cm of 3 lines (A, B, C) to check if they can form a triangle.");
                 Console.WriteLine("|B - C| < A < B+C \n|A - C| < B < A+C \n|A - B| < C < A+B\n");
+
                 Console.WriteLine("First line A:");
                 A = Console.ReadLine();
 
@@ -42,6 +43,13 @@ namespace Tarefa_03
             var b = double.Parse(B);
             var c = double.Parse(C);
 
+            if (a < 0 || b < 0 || c < 0)
+            {
+                Console.WriteLine("A triangle cannot have a negative line.");
+                Console.ReadKey();
+                triangleTest();
+            }
+
             test1 = (b - c) < a && a < (b + c);
             test2 = (a - c) < b && b < (a + c);
             test3 = (a - b) < c && c < (a + b);
@@ -51,14 +59,20 @@ namespace Tarefa_03
                 Console.Clear();
                 Console.WriteLine("These 3 lines can form a triangle!!");
                 Console.WriteLine(A + "cm|" + B + "cm|" + C + "cm");
+                Console.ReadKey();
             }
             else
             {
                 Console.Clear();
                 Console.WriteLine("Error, these 3 lines cannot form a triangle!!");
                 Console.WriteLine(A + "cm|" + B + "cm|" + C + "cm");
+                Console.ReadKey();
             }
-            Console.WriteLine();
+
+            Console.Clear();
+            Console.WriteLine("Type -1 to exit, any other key to continue:");
+            if (Console.ReadLine() == "-1") Environment.Exit(0);
+            triangleTest();
         }
 
     }

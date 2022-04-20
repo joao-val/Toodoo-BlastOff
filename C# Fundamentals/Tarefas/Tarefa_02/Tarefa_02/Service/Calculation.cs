@@ -15,36 +15,38 @@ namespace Tarefa_02
 
         public void raffle()
         {
-            var teste1 = false;
-            var teste2 = false;
+            var test = false;
             var result = 0;
-            string v1;
+            string number;
             Random rand = new Random();
 
             do
             {
                 Console.Clear();
-                Console.WriteLine("Try to find the number randomly drawn between 0 and 5!");
+                Console.WriteLine("Try to find the number randomly drawn between 0 and 5 (Type -1 to exit)!");
                 Console.WriteLine("Enter the number (0--5):");
-                v1 = Console.ReadLine();
-                teste1 = (int.TryParse(v1, out int i)) && (int.Parse(v1) <= 5 && int.Parse(v1) >= 0);
-            }while (teste1 == false);
+                number = Console.ReadLine();
+
+                if (number == "-1") Environment.Exit(0);
+                test = (int.TryParse(number, out int i)) && (int.Parse(number) <= 5 && int.Parse(number) >= 0);
+            }while (test == false);
 
             result = rand.Next(0, 5);
 
-            if (int.Parse(v1) == result)
+            if (int.Parse(number) == result)
             {
-                Console.Clear();
+                Console.WriteLine("---------------------------------");
                 Console.WriteLine("Congratulations you got it right!");
                 Console.WriteLine("The number drawn was " + result);
             }
             else
             {
-                Console.Clear();
+                Console.WriteLine("---------------------------------");
                 Console.WriteLine("You didn't get it right, it happens!");
                 Console.WriteLine("The number drawn was " + result);
             }
-            Console.WriteLine();
+            Console.ReadKey();
+            raffle();
         }
     }
 }

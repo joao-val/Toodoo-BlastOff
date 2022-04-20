@@ -23,8 +23,9 @@ namespace Tarefa_01
             do
             {
                 Console.Clear();
-                Console.WriteLine("Enter a number between 0 and 9999:");                
+                Console.WriteLine("Enter a number between 0 and 9999 (Type -1 to exit):");
                 v1 = Console.ReadLine();
+                if (v1 == "-1") Environment.Exit(0);
                 teste1 = (int.TryParse(v1, out int i)) && (int.Parse(v1) >= 0 && int.Parse(v1) <= 9999);
                 teste2 = (v1.Length > 4) == false;
 
@@ -64,7 +65,8 @@ namespace Tarefa_01
                     Console.WriteLine("Unidade de milhar: " + v1.Substring(0,1));
                     break;
             }
-            Console.WriteLine();
+            Console.ReadKey();
+            show();
         }
     }
 }

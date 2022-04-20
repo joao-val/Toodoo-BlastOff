@@ -37,7 +37,7 @@ namespace Tarefa_08
             var counter = 0;
             var test = false;
             var test2 = false;
-            var x = 0;
+            var size = 0;
 
             switch (int.Parse(option))
             {
@@ -47,14 +47,14 @@ namespace Tarefa_08
                     do
                     {
                         Console.Clear();
-                        Console.WriteLine("Enter the number in the numberFormat (xxxx-xxxx)");
+                        Console.WriteLine("Enter the number in the format (xxxx-xxxx)");
                         numberFormat = Console.ReadLine();
 
-                        if (numberFormat.Length >= 8)
+                        if (numberFormat.Length >= 8 && numberFormat.Contains("-"))
                         {
                             test = numberFormat.Substring(3, 1) == "-" || numberFormat.Substring(4, 1) == "-";
                             var position = numberFormat.IndexOf("-");
-                            test2 = int.TryParse(numberFormat.Substring(0, 3), out int i) && int.TryParse(numberFormat.Substring(position, 4), out i);
+                            test2 = int.TryParse(numberFormat.Substring(0, position), out int i) && int.TryParse(numberFormat.Substring(position, 4), out i);
                         }
                         
                     } while (numberFormat.Length < 8 || numberFormat.Length > 9 || test == false || test2 == false);
@@ -62,10 +62,10 @@ namespace Tarefa_08
                     if (numberFormat.Length == 8)
                     {
                         number[0] = "3";
-                        x = 1;
+                        size = 1;
                     }
 
-                    for (int i = x ; i < 9; i++)
+                    for (int i = size ; i < 9; i++)
                     {
                         number[i] = numberFormat.Substring(counter,1);
                         counter = counter +1;
@@ -98,10 +98,10 @@ namespace Tarefa_08
                     if (numberFormat.Length == 7)
                     {
                         number[0] = "3";
-                        x = 1;
+                        size = 1;
                     }
 
-                    for (int i = x; i < 8; i++)
+                    for (int i = size; i < 8; i++)
                     {
                         number[i] = numberFormat.Substring(counter, 1);
                         counter = counter + 1;

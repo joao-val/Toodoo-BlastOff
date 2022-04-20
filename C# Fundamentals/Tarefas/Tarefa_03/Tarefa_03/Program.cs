@@ -10,10 +10,9 @@ namespace Tarefa_03
     {
         static void Main(string[] args)
         {
-
             Triangle triangle = new Triangle();
 
-            triangle.test();
+            triangle.triangleTest();
         }
     }
 }

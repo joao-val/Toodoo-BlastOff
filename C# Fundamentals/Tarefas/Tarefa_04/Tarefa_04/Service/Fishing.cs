@@ -22,11 +22,11 @@ namespace Tarefa_04
             do
             {
                 Console.Clear();
-                Console.WriteLine("Enter how many kilograms of fish John caught:");
+                Console.WriteLine("Enter how many kilograms of fish John caught (Decimals separated by ','):");
                 Console.WriteLine("Each kilogram over 50 is subject to a fine of 4R$!");
 
                 kilograms = Console.ReadLine();
-                test1 = double.TryParse(kilograms, out double i);
+                test1 = double.TryParse(kilograms, out double i) && double.Parse(kilograms) > 0;
 
             }while (test1 == false);
 
@@ -38,6 +38,7 @@ namespace Tarefa_04
                 Console.WriteLine("Jhon caught " + double.Parse(kilograms) + " kg");
                 Console.WriteLine("Excess = " + Math.Round(excess, 3) + " Kg");
                 Console.WriteLine("Debit = " + Math.Round(debit, 2) + " R$");
+                Console.ReadKey();
             }
             else
             {
@@ -45,8 +46,13 @@ namespace Tarefa_04
                 Console.WriteLine("Jhon caught "+ double.Parse(kilograms) +" kg");
                 Console.WriteLine("Excess = 0 Kg");
                 Console.WriteLine("Debit = 0 R$");
+                Console.ReadKey();
             }
-            Console.WriteLine();
+
+            Console.Clear();
+            Console.WriteLine("Type -1 to exit, any other key to continue:");
+            if (Console.ReadLine() == "-1") Environment.Exit(0);
+            weight();
         }
 
     }

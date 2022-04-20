@@ -11,7 +11,6 @@ namespace Tarefa_06
         static void Main(string[] args)
         {
             LongJump longJump = new LongJump();
-
             longJump.jump();
         }
     }

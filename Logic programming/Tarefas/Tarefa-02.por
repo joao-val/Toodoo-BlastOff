@@ -7,7 +7,7 @@ programa
 	{
 		cadeia km1, km2, litro 
 		real media
-		logico teste1, teste2, teste3
+		logico teste1, teste2, teste3, teste4
 		escreva("Média de Km/L do carro\n")
 		
 		faca
@@ -28,6 +28,13 @@ programa
 		limpa()
 		}enquanto ((teste1 e teste2 e teste3) == falso)
 
+		teste4 = (tp.cadeia_para_real(km1) > 0 e tp.cadeia_para_real(km2) > 0 e tp.cadeia_para_real(litro) > 0 ) e (tp.cadeia_para_real(km1) < tp.cadeia_para_real(km2))
+		se (teste4 == falso)
+		{
+			inicio()
+		}
+		
+		
 		media = (tp.cadeia_para_real(km2) - tp.cadeia_para_real(km1))/tp.cadeia_para_real(litro)
 		escreva("Você fez ", mat.arredondar(media, 2), "Km em média, por litro de gasolina!")
 	}
@@ -37,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 726; 
+ * @POSICAO-CURSOR = 609; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
