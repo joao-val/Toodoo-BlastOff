@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Tarefa-01-POO/1.0.0": {
+        "runtime": {
+          "Tarefa-01-POO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tarefa-01-POO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
