@@ -39,7 +39,7 @@ namespace Tarefa_01_POO
                 Console.WriteLine("------------------------");
 
                 Console.WriteLine("Do you want to change the value of the sides?");
-                Console.WriteLine("Enter -1 to yes(any other key to continue):");
+                Console.WriteLine("Enter '-1' to yes or any other key to continue:");
                 if (Console.ReadLine() == "-1")
                 {
                     rectangle.ChangeValueOfSides();
@@ -49,8 +49,9 @@ namespace Tarefa_01_POO
 
                 Console.Clear();
                 Console.WriteLine($"{rectangle.CalculateArea()}m² of flooring and {rectangle.CalculatePerimeter()}m of baseboards will be needed to serve the place.");
-                Console.WriteLine("Type -1 to exit");
-            }while (Console.ReadLine() != "-1");
+                Console.WriteLine("-----------------------------------------------------------------------\n");
+                Console.WriteLine("Type '-2' to exit or any other key to continue:");
+            }while (Console.ReadLine() != "-2");
         }
     }
 }

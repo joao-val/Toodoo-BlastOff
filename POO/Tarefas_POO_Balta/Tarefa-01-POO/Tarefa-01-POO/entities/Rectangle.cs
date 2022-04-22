@@ -34,9 +34,11 @@ namespace Tarefa_01_POO.entities
                 Console.ReadKey();
                 ChangeValueOfSides();
             }
-
-            Length = double.Parse(newLength);
-            Width = double.Parse(newWidth);
+            else
+            {
+                Length = double.Parse(newLength);
+                Width = double.Parse(newWidth);
+            }
         }
 
         public void PrintValueOfSides()
