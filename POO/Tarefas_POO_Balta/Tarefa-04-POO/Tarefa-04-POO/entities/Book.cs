@@ -18,7 +18,7 @@ namespace Tarefa_04_POO.entities
         {
             Books = new List<Book>();
             Title = titleFormat(title);
-            ISBN = FormatoISBN(format);
+            ISBN = ISBNFormat(format);
             NumberPages = numberOfPages(quantity);
         }
 
@@ -58,7 +58,7 @@ namespace Tarefa_04_POO.entities
             return Title = format;
         }
 
-        public string FormatoISBN(string format)
+        public string ISBNFormat(string format)
         {
             var test = Int64.TryParse(format, out Int64 x);
             if (test == false)
@@ -93,9 +93,5 @@ namespace Tarefa_04_POO.entities
             return NumberPages = int.Parse(numberPages);
         }
 
-        public static implicit operator List<object>(Book v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
