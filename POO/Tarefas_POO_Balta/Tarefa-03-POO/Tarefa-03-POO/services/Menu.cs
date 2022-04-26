@@ -50,16 +50,20 @@ namespace Tarefa_03_POO.services
             VIPTicket vipTicket = new VIPTicket();
             BottomBox bottomBox = new BottomBox();
             TopBox topBox = new TopBox();
+            var test = false;
+            string option;
 
-            Console.Clear();
-            Console.WriteLine("Which ticket do you want to choose?");
-            Console.WriteLine("Option 1: Normal ticket!");
-            Console.WriteLine("Option 2: Bottom Box ticket!");
-            Console.WriteLine("Option 3: Top Box ticket!");
-
-            var option = int.Parse(Console.ReadLine());
-            
-            switch (option)
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Which ticket do you want to choose?");
+                Console.WriteLine("Option 1: Normal ticket!");
+                Console.WriteLine("Option 2: Bottom Box ticket!");
+                Console.WriteLine("Option 3: Top Box ticket!");
+                option = Console.ReadLine();
+                test = int.TryParse(option, out int x);
+            } while (test == false);
+            switch (int.Parse(option))
             {
                 case 1: 
                     normalTicket.printNormalTicket();
@@ -74,6 +78,7 @@ namespace Tarefa_03_POO.services
                     topBox.topBoxTicketPrice();
                     break;
 
+                default: ticket(); break;
             }
         }
 
