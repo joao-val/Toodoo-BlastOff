@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.deps.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.runtimeconfig.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.runtimeconfig.dev.json
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\bin\Debug\net5.0\Regex.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.AssemblyInfoInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.AssemblyInfo.cs
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\refint\Regex.dll
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\Regex.genruntimeconfig.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Regex\Payments\obj\Debug\net5.0\ref\Regex.dll

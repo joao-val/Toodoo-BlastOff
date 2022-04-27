@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.exe
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.deps.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.runtimeconfig.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.runtimeconfig.dev.json
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\bin\Debug\net5.0\Payments.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.AssemblyInfoInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.AssemblyInfo.cs
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\refint\Payments.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\Payments.genruntimeconfig.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\C#\Payments\Payments\obj\Debug\net5.0\ref\Payments.dll

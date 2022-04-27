@@ -60,16 +60,15 @@ namespace Tarefa_04_POO.entities
 
         public string ISBNFormat(string format)
         {
-            var test = Int64.TryParse(format, out Int64 x);
-            if (test == false)
+            Regex rg = new Regex(@"^([\d]{13})$");
+            if (rg.IsMatch(format) == false)
             {
                 do
                 {
                     Console.Clear();
-                    Console.WriteLine("Enter the ISBN in the correct format:");
+                    Console.WriteLine("Enter the ISBN in the correct format (13 digits):");
                     format = Console.ReadLine();
-                    test = Int64.TryParse(format, out x);
-                } while (test == false);
+                } while (rg.IsMatch(format) == false);
             }
             else { return format; }
             return ISBN = format;
