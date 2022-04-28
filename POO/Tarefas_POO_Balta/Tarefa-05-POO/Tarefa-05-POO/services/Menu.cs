@@ -22,12 +22,13 @@ namespace Tarefa_05_POO.services
 
             Console.WriteLine("Celestial Bodies Credentials.");
             Console.WriteLine("Enter the information of 6 celestial bodies:");
-
+            Console.ReadKey();
 
             for (int i = 1; i < 7; i++)
             {
                 Console.Clear();
                 Console.WriteLine($"Enter the information of the celestial body number {i}:");
+                Console.ReadKey();
                 celestialBodies[i] = new CelestialBody();
                 celestialBodies[i].CollectName();
                 celestialBodies[i].CollectType();

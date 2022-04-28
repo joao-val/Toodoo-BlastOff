@@ -42,7 +42,6 @@ namespace Tarefa_09
                     Console.WriteLine("Enter the CPF in the format (xxx.xxx.xxx-xx)");
                     numberFormat = Console.ReadLine();
 
-
                     if (numberFormat.Length == 14)
                     {
                         test = numberFormat.Substring(3, 1) == "." && numberFormat.Substring(7, 1) == "." && numberFormat.Substring(11, 1) == "-";

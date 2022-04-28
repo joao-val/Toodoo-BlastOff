@@ -21,7 +21,6 @@ namespace Tarefa_05_POO.entities
 
         public void CollectName()
         {
-            Console.Clear();
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Enter the name of the celestial body: ");
             var name = Console.ReadLine();
@@ -34,6 +33,7 @@ namespace Tarefa_05_POO.entities
             {
                 Console.WriteLine("Please disregard the numbers and just put the name!");
                 Console.ReadKey();
+                Console.Clear();
                 CollectName();
             }
         }
