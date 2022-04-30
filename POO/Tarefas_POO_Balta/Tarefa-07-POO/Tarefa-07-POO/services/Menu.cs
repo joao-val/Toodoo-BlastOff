@@ -7,7 +7,7 @@ using Tarefa_07_POO.entities;
 
 namespace Tarefa_07_POO.services
 {
-    public class Menu : Account
+    public class Menu
     {
 
         public Menu()
@@ -27,41 +27,73 @@ namespace Tarefa_07_POO.services
             do
             {
                 Console.Clear();
-                Console.WriteLine("Choose an option below:");
-                Console.WriteLine("Option 1 to create a savings account!");
-                Console.WriteLine("Option 2 to create a checking account!");
-                Console.WriteLine("Option 3 to view existing accounts!");
-                Console.WriteLine("Option 4 to exit!");
+                Console.WriteLine("________________________________________");
+                Console.WriteLine("|Choose an option below:               |");
+                Console.WriteLine("|Option 1 to create a savings account! |");
+                Console.WriteLine("|Option 2 to create a checking account!|");
+                Console.WriteLine("|Option 3 to view existing accounts!   |");
+                Console.WriteLine("|Option 4 to exit!                     |");
+                Console.WriteLine("----------------------------------------");
+                Console.Write("Enter the option: ");
                 option = Console.ReadLine();
-
                 switch (option)
                 {
                     case "1":
                         savingsAccount.FillAccount();
-                        for (int i = 0; i < savingsAccountList.Count; i++)
+
+                        if (savingsAccountList.Count == 0)
                         {
-                            if (savingsAccountList[i].Number == savingsAccount.Number)
+                            savingsAccount.FillBalance();
+                            savingsAccount.CalculatesYield();
+                            savingsAccountList.Add(savingsAccount);
+                        }
+                        else
+                        {
+                            for (int i = 0; i < savingsAccountList.Count; i++)
                             {
-                                Console.WriteLine("This account alreasy exists!");
-                                break;
+                                if (savingsAccountList[i].Number == savingsAccount.Number)
+                                {
+                                    Console.Clear();
+                                    Console.WriteLine("This savings account number already exists!");
+                                    Console.ReadKey();
+                                }
+                                else
+                                {
+                                    savingsAccount.FillBalance();
+                                    savingsAccount.CalculatesYield();
+                                    savingsAccountList.Add(savingsAccount);
+                                }
                             }
                         }
-                        savingsAccount.CalculatesYield();
-                        savingsAccountList.Add(savingsAccount);
                         break;
 
                     case "2":
                         checkingAccount.FillAccount();
-                        for (int i = 0; i < checkingAccountList.Count; i++)
+
+                        if (checkingAccountList.Count == 0)
                         {
-                            if (checkingAccountList[i].Number == checkingAccount.Number)
+                            checkingAccount.FillBalance();
+                            checkingAccount.DiscountsMonthlyFee();
+                            checkingAccountList.Add(checkingAccount);
+                        }
+                        else
+                        {
+                            for (int i = 0; i < checkingAccountList.Count; i++)
                             {
-                                Console.WriteLine("This account alreasy exists!");
-                                break;
+                                if (checkingAccountList[i].Number == checkingAccount.Number)
+                                {
+                                    Console.Clear();
+                                    Console.WriteLine("This checking account number already exists!");
+                                    Console.ReadKey();
+                                }
+                                else
+                                {
+                                    checkingAccount.FillBalance();
+                                    checkingAccount.DiscountsMonthlyFee();
+                                    checkingAccountList.Add(checkingAccount);
+                                }
                             }
                         }
-                        checkingAccount.DiscountsMonthlyFee();
-                        checkingAccountList.Add(checkingAccount);
                         break;
 
                     case "3":
@@ -92,8 +124,15 @@ namespace Tarefa_07_POO.services
                         else
                         {
                             Console.WriteLine("No checking accounts has been created!");
+                            Console.ReadKey();
+                        
                         }
                         break;
+                }
+                if (option != "1" && option != "2" && option != "3" && option != "4")
+                {
+                    Console.WriteLine("Invalid Option!");
+                    Console.ReadKey();
                 }
             }while(option != "4");
 
