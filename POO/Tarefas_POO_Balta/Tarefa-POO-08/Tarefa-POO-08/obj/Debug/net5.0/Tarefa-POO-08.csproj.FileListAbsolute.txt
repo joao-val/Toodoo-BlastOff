@@ -1,0 +1,16 @@
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.exe
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.deps.json
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.runtimeconfig.json
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.runtimeconfig.dev.json
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\bin\Debug\net5.0\Tarefa-POO-08.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.AssemblyInfoInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.AssemblyInfo.cs
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\refint\Tarefa-POO-08.dll
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.pdb
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\Tarefa-POO-08.genruntimeconfig.cache
+L:\Joao\C#\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-POO-08\Tarefa-POO-08\obj\Debug\net5.0\ref\Tarefa-POO-08.dll

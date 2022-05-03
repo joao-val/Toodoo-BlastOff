@@ -1,10 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Tarefa_07_POO.entities
 {
     public class SavingsAccount : Account
     {
+
+        public SavingsAccount()
+        {
+            AccountList = new List<Account>();
+        }
+
         private double IncomeSavings { get; set; }
+
+        public IList<Account> AccountList { get; set; }
 
         public void CalculatesYield()
         {
@@ -36,5 +45,6 @@ namespace Tarefa_07_POO.entities
             Console.WriteLine($"The final balance of this account after the savings simulation will be: R${Math.Round(FinalBalance, 2)}");
             Console.ReadKey();
         }
+
     }
 }

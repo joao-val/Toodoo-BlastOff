@@ -25,10 +25,12 @@ namespace Tarefa_07_POO.entities
 
         public override void ShowAccount()
         {
-            Console.WriteLine("---------------------------------------------------------------------------------------------------");
+            Console.WriteLine("____________________________________________________________________________________");
             Console.WriteLine($"Your account is: Agency {Agency}| Number {Number}| Account opening balance R${Math.Round(AccountBalance, 2)}");
             Console.WriteLine($"The final balance of this account after the the monthly fee will be: R${Math.Round(FinalBalance, 2)}");
+            Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
             Console.ReadKey();
         }
+
     }
 }

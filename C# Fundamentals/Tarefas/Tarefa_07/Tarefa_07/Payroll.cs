@@ -27,7 +27,7 @@ namespace Tarefa_07
             {
                 test = false;
                 
-                Console.WriteLine("Enter the gross sales amount for seller " + (i + 1) + ":");
+                Console.WriteLine("Enter the gross sales amount for seller " + (i + 1) + "(Decimais são separados por ','):");
                 sales[i] = Console.ReadLine();
                 test = double.TryParse(sales[i], out double x) && double.Parse(sales[i]) > 0;
 

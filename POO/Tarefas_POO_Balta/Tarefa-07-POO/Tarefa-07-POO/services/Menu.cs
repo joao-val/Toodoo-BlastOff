@@ -12,132 +12,135 @@ namespace Tarefa_07_POO.services
 
         public Menu()
         {
+            SavingsAccountList = new List<SavingsAccount>();
+            CheckingAccountList = new List<CheckingAccount>();
         }
+
+        public List<SavingsAccount> SavingsAccountList { get; set; }
+
+        public List<CheckingAccount> CheckingAccountList { get; set; }
 
         public void Show()
         {
             var savingsAccount = new SavingsAccount();
             var checkingAccount = new CheckingAccount();
 
-            var savingsAccountList = new List<SavingsAccount>();
+
+            //var savingsAccountList = new List<SavingsAccount>();
             var checkingAccountList = new List<CheckingAccount>();
 
             string option;
 
-            do
+            
+            Console.Clear();
+            Console.WriteLine("________________________________________");
+            Console.WriteLine("|Choose an option below:               |");
+            Console.WriteLine("|Option 1 to create a savings account! |");
+            Console.WriteLine("|Option 2 to create a checking account!|");
+            Console.WriteLine("|Option 3 to view existing accounts!   |");
+            Console.WriteLine("|Option 4 to exit!                     |");
+            Console.WriteLine("----------------------------------------");
+            Console.Write("Enter the option: ");
+            option = Console.ReadLine();
+            switch (option)
             {
-                Console.Clear();
-                Console.WriteLine("________________________________________");
-                Console.WriteLine("|Choose an option below:               |");
-                Console.WriteLine("|Option 1 to create a savings account! |");
-                Console.WriteLine("|Option 2 to create a checking account!|");
-                Console.WriteLine("|Option 3 to view existing accounts!   |");
-                Console.WriteLine("|Option 4 to exit!                     |");
-                Console.WriteLine("----------------------------------------");
-                Console.Write("Enter the option: ");
-                option = Console.ReadLine();
-                switch (option)
-                {
-                    case "1":
-                        savingsAccount.FillAccount();
+                case "1":
+                    savingsAccount.FillAccount();
 
-                        if (savingsAccountList.Count == 0)
+                    if (SavingsAccountList.Count == 0)
+                    {
+                        savingsAccount.FillBalance();
+                        savingsAccount.CalculatesYield();
+                        SavingsAccountList.Add(savingsAccount);
+                    }
+                    else
+                    {
+                        for (int i = 0; i < SavingsAccountList.Count; i++)
                         {
-                            savingsAccount.FillBalance();
-                            savingsAccount.CalculatesYield();
-                            savingsAccountList.Add(savingsAccount);
-                        }
-                        else
-                        {
-                            for (int i = 0; i < savingsAccountList.Count; i++)
+                            if (SavingsAccountList[i].Number == savingsAccount.Number)
                             {
-                                if (savingsAccountList[i].Number == savingsAccount.Number)
-                                {
-                                    Console.Clear();
-                                    Console.WriteLine("This savings account number already exists!");
-                                    Console.ReadKey();
-                                }
-                                else
-                                {
-                                    savingsAccount.FillBalance();
-                                    savingsAccount.CalculatesYield();
-                                    savingsAccountList.Add(savingsAccount);
-                                }
+                                Console.Clear();
+                                Console.WriteLine("This saving account number already exists!");
+                                Console.ReadKey();
+                                Show();
                             }
                         }
-                        break;
+                        savingsAccount.FillBalance();
+                        savingsAccount.CalculatesYield();
+                        SavingsAccountList.Add(savingsAccount);
+                    }
+                    break;
 
-                    case "2":
-                        checkingAccount.FillAccount();
+                case "2":
+                    checkingAccount.FillAccount();
 
-                        if (checkingAccountList.Count == 0)
+                    if (CheckingAccountList.Count == 0)
+                    {
+                        checkingAccount.FillBalance();
+                        checkingAccount.DiscountsMonthlyFee();
+                        CheckingAccountList.Add(checkingAccount);
+                    }
+                    else
+                    {
+                        for (int i = 0; i < CheckingAccountList.Count; i++)
                         {
-                            checkingAccount.FillBalance();
-                            checkingAccount.DiscountsMonthlyFee();
-                            checkingAccountList.Add(checkingAccount);
-                        }
-                        else
-                        {
-                            for (int i = 0; i < checkingAccountList.Count; i++)
+                            if (CheckingAccountList[i].Number == checkingAccount.Number)
                             {
-                                if (checkingAccountList[i].Number == checkingAccount.Number)
-                                {
-                                    Console.Clear();
-                                    Console.WriteLine("This checking account number already exists!");
-                                    Console.ReadKey();
-                                }
-                                else
-                                {
-                                    checkingAccount.FillBalance();
-                                    checkingAccount.DiscountsMonthlyFee();
-                                    checkingAccountList.Add(checkingAccount);
-                                }
+                                Console.Clear();
+                                Console.WriteLine("This checking account number already exists!");
+                                Console.ReadKey();
+                                Show();
                             }
                         }
-                        break;
+                        checkingAccount.FillBalance();
+                        checkingAccount.DiscountsMonthlyFee();
+                        CheckingAccountList.Add(checkingAccount);
+                    }
+                    break;
 
-                    case "3":
-                        Console.Clear();
-                        if (savingsAccountList.Count > 0)
+                case "3":
+                    Console.Clear();
+                    if (SavingsAccountList.Count > 0)
+                    {
+                        Console.WriteLine("Existing savings accounts are:");
+                        foreach (var account in SavingsAccountList)
                         {
-                            Console.WriteLine("Existing savings accounts are:");
-                            foreach (var account in savingsAccountList)
-                            {
-                                account.ShowAccount();
-                            }
+                            account.ShowAccount();
                         }
-                        else
+                    }
+                    else
+                    {
+                        Console.WriteLine("No savings accounts has been created!");
+                    }
+                    Console.ReadKey();
+                    Console.WriteLine();
+
+                    if (CheckingAccountList.Count > 0)
+                    {
+                        Console.WriteLine("Existing checking accounts are:");
+                        foreach (var account in CheckingAccountList)
                         {
-                            Console.WriteLine("No savings accounts has been created!");
+                            account.ShowAccount();
                         }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No checking accounts has been created!");
                         Console.ReadKey();
-                        Console.WriteLine();
-
-                        if (checkingAccountList.Count > 0)
-                        {
-                            Console.WriteLine("Existing checking accounts are:");
-                            foreach (var account in checkingAccountList)
-                            {
-                                account.ShowAccount();
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("No checking accounts has been created!");
-                            Console.ReadKey();
                         
-                        }
-                        break;
+                    }
+                    break;
+
+                case "4": Environment.Exit(0); break;
+
                 }
                 if (option != "1" && option != "2" && option != "3" && option != "4")
                 {
                     Console.WriteLine("Invalid Option!");
                     Console.ReadKey();
                 }
-            }while(option != "4");
-
-            
-            
+                
+            Show();
         }
 
     }

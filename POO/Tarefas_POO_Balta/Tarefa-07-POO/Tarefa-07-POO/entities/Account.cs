@@ -19,7 +19,6 @@ namespace Tarefa_07_POO.entities
             Agency = agency;
             AccountBalance = accountBalance;
         }
-
         public string Number { get; set; }
 
         protected string Agency { get; set; }
@@ -86,5 +85,6 @@ namespace Tarefa_07_POO.entities
             Console.WriteLine($"Your account is: Agency {Agency}| Number {Number}| Opening balance R${Math.Round(FinalBalance, 2)}");
             Console.ReadKey();
         }
+
     }
 }
