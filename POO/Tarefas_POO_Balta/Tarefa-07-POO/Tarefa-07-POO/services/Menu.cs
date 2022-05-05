@@ -24,13 +24,7 @@ namespace Tarefa_07_POO.services
         {
             var savingsAccount = new SavingsAccount();
             var checkingAccount = new CheckingAccount();
-
-
-            //var savingsAccountList = new List<SavingsAccount>();
-            var checkingAccountList = new List<CheckingAccount>();
-
             string option;
-
             
             Console.Clear();
             Console.WriteLine("________________________________________");

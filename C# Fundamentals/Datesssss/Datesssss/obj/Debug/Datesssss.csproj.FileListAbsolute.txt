@@ -6,3 +6,11 @@ L:\Joao\C#\Balta.io\Datesssss\Datesssss\obj\Debug\Datesssss.csproj.SuggestedBind
 L:\Joao\C#\Balta.io\Datesssss\Datesssss\obj\Debug\Datesssss.csproj.CoreCompileInputs.cache
 L:\Joao\C#\Balta.io\Datesssss\Datesssss\obj\Debug\Datesssss.exe
 L:\Joao\C#\Balta.io\Datesssss\Datesssss\obj\Debug\Datesssss.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\bin\Debug\Datesssss.exe.config
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\bin\Debug\Datesssss.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\bin\Debug\Datesssss.pdb
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\obj\Debug\Datesssss.csproj.AssemblyReference.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\obj\Debug\Datesssss.csproj.SuggestedBindingRedirects.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\obj\Debug\Datesssss.csproj.CoreCompileInputs.cache
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\obj\Debug\Datesssss.exe
+L:\Joao\C#\Toodoo\BlastOff\C# Fundamentals\Datesssss\Datesssss\obj\Debug\Datesssss.pdb
