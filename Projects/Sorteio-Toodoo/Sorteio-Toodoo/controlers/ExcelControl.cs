@@ -24,7 +24,6 @@ namespace Sorteio_Toodoo.services
                 using (ExcelPackage package = new ExcelPackage(path))
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-                    int colSize = worksheet.Dimension.End.Column;
                     int rowSize = worksheet.Dimension.End.Row;
 
                     for (int row = 2; row <= rowSize; row++)
