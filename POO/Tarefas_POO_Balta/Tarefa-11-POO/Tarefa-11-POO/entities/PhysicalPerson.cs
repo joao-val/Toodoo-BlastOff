@@ -25,9 +25,9 @@ namespace Tarefa_11_POO.entities
             {
                 Console.Clear();
                 Console.WriteLine();
-                Console.WriteLine("________________________________________________");
-                Console.WriteLine("Enter the company's CPF (format xxx.xxx.xxx-xx):");
-                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
+                Console.WriteLine("__________________________________________________");
+                Console.WriteLine("Enter the person's CPF (format xxx.xxx.xxx-xx) |:");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 CPF = Console.ReadLine();
             } while (!testCPF.IsMatch(CPF));
         }

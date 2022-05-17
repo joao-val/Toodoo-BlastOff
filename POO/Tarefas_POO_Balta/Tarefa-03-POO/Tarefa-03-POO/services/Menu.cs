@@ -21,9 +21,11 @@ namespace Tarefa_03_POO.services
             do
             {
                 Console.Clear();
-                Console.WriteLine("Choose one of the option below: ");
-                Console.WriteLine("Option 1: Choose a ticket!");
-                Console.WriteLine("Option 2: Exit!");
+                Console.WriteLine("_________________________________");
+                Console.WriteLine("Choose one of the option below: |");
+                Console.WriteLine("Option 1: Choose a ticket!      |");
+                Console.WriteLine("Option 2: Exit!                 |");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 option = Console.ReadLine();
                 test = int.TryParse(option, out int x);
             }while(test == false);
@@ -56,10 +58,12 @@ namespace Tarefa_03_POO.services
             do
             {
                 Console.Clear();
-                Console.WriteLine("Which ticket do you want to choose?");
-                Console.WriteLine("Option 1: Normal ticket!");
-                Console.WriteLine("Option 2: Bottom Box ticket!");
-                Console.WriteLine("Option 3: Top Box ticket!");
+                Console.WriteLine("_____________________________________");
+                Console.WriteLine("Which ticket do you want to choose? |");
+                Console.WriteLine("Option 1: Normal ticket!            |");
+                Console.WriteLine("Option 2: Bottom Box ticket!        |");
+                Console.WriteLine("Option 3: Top Box ticket!           |");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 option = Console.ReadLine();
                 test = int.TryParse(option, out int x);
             } while (test == false);

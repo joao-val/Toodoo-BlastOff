@@ -32,7 +32,7 @@ namespace Tarefa_11_POO.entities
         public override void EnterInfo()
         {
             Regex contractNumber = new Regex(@"^[\d]{3,5}$");
-            Regex testName = new Regex(@"^[A-Za-zÁ-Úá-ú]{2,15}\s[A-Za-zÁ-Úá-ú\s]+$");
+            Regex testName = new Regex(@"^[A-Za-zÁ-Úá-ú\s]{2,15}$");
             Regex testRegistration = new Regex(@"^[\d]{8}-[\d]{2}$");
 
             bool test = false, test2 = false, test3 = false;

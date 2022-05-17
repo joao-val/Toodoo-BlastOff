@@ -47,6 +47,8 @@ namespace Tarefa_11_POO.services
                     {
                         physicalPerson.EnterInfo();
                         CalcInstallment(ref physicalPerson, physicalPerson, legalPerson);
+                        physicalPerson.ShowInfo();
+                        PhysicalPersonList.Add(physicalPerson);
                     }
                     else
                     {
@@ -60,12 +62,13 @@ namespace Tarefa_11_POO.services
                                 Show();
                             }
                         }
+
+                        physicalPerson.EnterInfo();
+                        CalcInstallment(ref physicalPerson, physicalPerson, legalPerson);
+                        physicalPerson.ShowInfo();
+                        PhysicalPersonList.Add(physicalPerson);
                     }
 
-                    physicalPerson.EnterInfo();
-                    CalcInstallment(ref physicalPerson, physicalPerson, legalPerson);
-                    physicalPerson.ShowInfo();
-                    PhysicalPersonList.Add(physicalPerson);
                     break;
 
                 case "2":
@@ -74,6 +77,8 @@ namespace Tarefa_11_POO.services
                     {
                         legalPerson.EnterInfo();
                         CalcInstallment(ref legalPerson, physicalPerson, legalPerson);
+                        legalPerson.ShowInfo();
+                        LegalPersonList.Add(legalPerson);
                     }
                     else
                     {
@@ -87,12 +92,11 @@ namespace Tarefa_11_POO.services
                                 Show();
                             }
                         }
+                        legalPerson.EnterInfo();
+                        CalcInstallment(ref legalPerson, physicalPerson, legalPerson);
+                        legalPerson.ShowInfo();
+                        LegalPersonList.Add(legalPerson);
                     }
-
-                    legalPerson.EnterInfo();
-                    CalcInstallment(ref legalPerson, physicalPerson, legalPerson);
-                    legalPerson.ShowInfo();
-                    LegalPersonList.Add(legalPerson);
                     break;
 
                 case "3":

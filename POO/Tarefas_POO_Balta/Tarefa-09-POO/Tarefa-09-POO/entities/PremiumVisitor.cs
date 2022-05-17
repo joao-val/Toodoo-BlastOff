@@ -49,20 +49,22 @@ namespace Tarefa_09_POO.entities
             string spent;
             Regex testSpent = new Regex(@"^[\d]{1,3}$");
             var test = false;
-            Console.Clear();
-            Console.WriteLine($"Current balance R${Math.Round(Balance, 2)}");
-            Console.WriteLine("Enter how much you want to spend from the voucher:");
-            spent = Console.ReadLine();
-            test = testSpent.IsMatch(spent) && double.Parse(spent) <= Balance;
 
-            if (test == false)
+            do
             {
-                Console.WriteLine("Insufficient balance to carry out the transaction!");
+                Console.Clear();
                 Console.WriteLine($"Current balance R${Math.Round(Balance, 2)}");
-                Console.ReadKey();
-                Spent();
-            }
-            
+                Console.WriteLine("Enter how much you want to spend from the voucher:");
+                spent = Console.ReadLine();
+                test = testSpent.IsMatch(spent) && double.Parse(spent) <= Balance;
+
+                if (test == false)
+                {
+                    Console.WriteLine("Insufficient balance to carry out the transaction!");
+                    Console.WriteLine($"Current balance R${Math.Round(Balance, 2)}");
+                    Console.ReadKey();
+                }
+            }while (test == false);
             Balance = Balance - double.Parse(spent);
             Console.Clear();
             Console.WriteLine($"Current balance R${Math.Round(Balance, 2)}");

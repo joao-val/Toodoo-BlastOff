@@ -32,18 +32,20 @@ namespace Tarefa_09_POO.entities
         public void FillCPF()
         {
             Regex testCPF = new Regex(@"^([\d]{3})\.([\d]{3})\.([\d]{3})\-([\d]{2})$");
-            Console.Clear();
-            Console.WriteLine("_______________________________________________________");
-            Console.WriteLine("Enter the CPF in the correct format (xxx.xxx.xxx-xx): |");
-            Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
-            string cpf = Console.ReadLine();
-            if (!testCPF.IsMatch(cpf))
+
+            do
             {
-                Console.WriteLine("Incorrect format!");
-                Console.ReadKey();
-                FillCPF();
-            }
-            CPF = cpf;
+                Console.Clear();
+                Console.WriteLine("_______________________________________________________");
+                Console.WriteLine("Enter the CPF in the correct format (xxx.xxx.xxx-xx): |");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
+                CPF = Console.ReadLine();
+                if (!testCPF.IsMatch(CPF))
+                {
+                    Console.WriteLine("Incorrect format!");
+                    Console.ReadKey();
+                }
+            } while (!testCPF.IsMatch(CPF));
         }
 
 

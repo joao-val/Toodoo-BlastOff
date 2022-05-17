@@ -17,8 +17,10 @@ namespace Tarefa_09_POO.services
         }
 
         public List<Visitor> VisitorList { get; set; }
-
+        
         public List<PremiumVisitor> PremiumVisitorList { get; set; }
+        
+
 
         public void Show()
         {
@@ -144,6 +146,10 @@ namespace Tarefa_09_POO.services
 
                 case "4":
                     VisitorMenu();
+                    break;
+
+                case "5":
+                    PremiumVisitorMenu();
                     break;
 
                 case "6":

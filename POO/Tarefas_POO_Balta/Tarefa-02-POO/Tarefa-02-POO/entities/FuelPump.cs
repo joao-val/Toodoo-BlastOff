@@ -25,8 +25,10 @@ namespace Tarefa_02_POO.entities
             do
             {
                 Console.Clear();
+                Console.WriteLine("______________________________________________________");
                 Console.WriteLine($"The value of a liter of {FuelType} is R${LiterValue}!");
                 Console.WriteLine($"Enter how many R$ of {FuelType} you want to refill:");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 pay = Console.ReadLine();
                 test = double.TryParse(pay, out double x) && double.Parse(pay) > 0;
             } while (test == false);
@@ -53,16 +55,27 @@ namespace Tarefa_02_POO.entities
             do
             {
                 Console.Clear();
+                Console.WriteLine("________________________________________________________");
                 Console.WriteLine($"The value of a liter of {FuelType} is R${LiterValue}!");
                 Console.WriteLine($"Enter how many liters of {FuelType} you want to refill:");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 liter = Console.ReadLine();
                 test = double.TryParse(liter, out double x) && double.Parse(liter) > 0 && double.Parse(liter) < FuelQuantity;
             } while (test == false);
 
             var pay = double.Parse(liter) * LiterValue;
-            Console.WriteLine($"The amount payable by the customer is: R${Math.Round(pay, 2)}");
-            Console.ReadKey();
-            ChangeFuelQuantity(double.Parse(liter));
+            if (double.Parse(liter) > FuelQuantity)
+            {
+                Console.WriteLine($"Insufficient amount of fuel, you ordered {Math.Round(double.Parse(liter), 2)}L and the tank contains {FuelQuantity}L");
+                Console.ReadKey();
+                RefuelByValue();
+            }
+            else
+            {
+                Console.WriteLine($"The amount payable by the customer is: R${Math.Round(pay, 2)}");
+                Console.ReadKey();
+                ChangeFuelQuantity(double.Parse(liter));
+            }
         }
 
         public void ChangeValue()
@@ -91,8 +104,10 @@ namespace Tarefa_02_POO.entities
             do
             {
                 Console.Clear();
-                Console.WriteLine("Enter the type of fuel you wish to fill:");
-                Console.WriteLine("Ethanol = 1 | Gasoline = 2 | Diesel = 3");
+                Console.WriteLine("__________________________________________");
+                Console.WriteLine("Enter the type of fuel you wish to fill: |");
+                Console.WriteLine("Ethanol = 1 | Gasoline = 2 | Diesel = 3  |");
+                Console.WriteLine("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨");
                 option = Console.ReadLine();
                 test = int.TryParse(option, out int x) && (int.Parse(option) > 0 && int.Parse(option) <= 3);
             } while (test == false);
@@ -135,8 +150,8 @@ namespace Tarefa_02_POO.entities
 
         public double ChangeFuelQuantity(double drain)
         {
+            Console.Clear();
             FuelQuantity -= drain;
-            Console.WriteLine("--------------------------------------------");
             Console.WriteLine($"The fuel pump still has {Math.Round(FuelQuantity, 2)}L of {FuelType}!");
             Console.ReadKey();
             return FuelQuantity;

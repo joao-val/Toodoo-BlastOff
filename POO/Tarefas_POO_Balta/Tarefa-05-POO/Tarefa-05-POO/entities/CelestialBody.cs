@@ -8,7 +8,6 @@ namespace Tarefa_05_POO.entities
     {
         public CelestialBody()
         {
-            
         }
 
         private string Name { get; set; }

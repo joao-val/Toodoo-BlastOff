@@ -1,0 +1,16 @@
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.exe
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.deps.json
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.runtimeconfig.json
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.runtimeconfig.dev.json
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.dll
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\bin\Debug\net5.0\Tarefa-12-POO.pdb
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.csproj.AssemblyReference.cache
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.AssemblyInfoInputs.cache
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.AssemblyInfo.cs
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.csproj.CoreCompileInputs.cache
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.dll
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\refint\Tarefa-12-POO.dll
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.pdb
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\Tarefa-12-POO.genruntimeconfig.cache
+L:\Joao\CSharp\Toodoo\BlastOff\POO\Tarefas_POO_Balta\Tarefa-12-POO\Tarefa-12-POO\obj\Debug\net5.0\ref\Tarefa-12-POO.dll

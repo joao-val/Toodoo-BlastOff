@@ -8,8 +8,6 @@ namespace Tarefa_02_POO
         static void Main(string[] args)
         {
             var menu = new Menu();
-            var fuelPump = new FuelPump();
-
             menu.show();
             
         }
