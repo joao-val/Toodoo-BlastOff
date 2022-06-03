@@ -1,0 +1,32 @@
+DROP DATABASE IF EXISTS C207; # NÃO SE UTILIZA EM UM BANCO DE PRODUÇÃO
+CREATE DATABASE C207;
+USE C207;
+
+CREATE TABLE cursos(
+	id INT NOT NULL PRIMARY KEY
+);
+
+CREATE TABLE alunos (
+	matricula INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    curso VARCHAR(20),
+    nome VARCHAR(45) NOT NULL,
+    periodo INT
+) ENGINE  = INNODB;
+
+INSERT INTO alunos(curso, nome, periodo) VALUES ('GEC', 'Flavio', '7');
+SELECT * FROM alunos;
+DELETE FROM alunos WHERE matricula = '2';
+
+SELECT * FROM cursos;
+DROP TABLE cursos;
+
+SHOW TABLE STATUS;
+
+DROP TABLE alunos;
+
+CREATE USER "joao" IDENTIFIED BY "1234";
+SHOW GRANTS FOR "developer";
+SHOW DATABASES;
+DROP USER "joao";
+ALTER TABLE alunos ADD disciplina VARCHAR(50);
+ALTER TABLE alunos DROP COLUMN disciplina;

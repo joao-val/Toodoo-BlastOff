@@ -1,0 +1,9 @@
+CREATE DATABASE aula02;
+USE aula02;
+
+CREATE TABLE teste(
+	id INT NOT NULL PRIMARY KEY, 
+    nome VARCHAR(20)
+);
+
+DROP DATABASE aula02;
