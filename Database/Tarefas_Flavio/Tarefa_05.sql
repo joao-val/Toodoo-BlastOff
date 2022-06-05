@@ -13,7 +13,7 @@ SHOW TABLE STATUS;
 INSERT INTO tb_client(CPF, Address) VALUES
 ("222.333.444-99", 'Rua 1'),("444.333.222-88", 'Rua 3');
 
-ALTER TABLE tb_client ADD Year_of_birth INT NOT NULL;
+ALTER TABLE tb_client ADD Year_of_birth YEAR NOT NULL;
 
 UPDATE tb_client SET Year_of_birth = '1998' WHERE id = '1'; 
 UPDATE tb_client SET Year_of_birth = '1999' WHERE id = '2'; 
