@@ -4,20 +4,39 @@ using Dapper;
 using Dapper.Models;
 using Microsoft.Data.SqlClient;
 
-var connectionString = new SqlConnection(@"Server= localhost,1433; Database=balta;User Id=sa;Password=Algar123; TrustServerCertificate = True;");
+const string connectionString = @"Server= localhost,1433; Database=balta;User Id=sa;Password=Algar123; TrustServerCertificate = True;";
 
-var category = new Category();
-category.Id = Guid.NewGuid();
-category.Title = "Amazon AWS";
-category.Url = "amazon";
-category.Description = "Categoria destinada a serviços do AWS";
-category.Order = 8;
-category.Summary = "AWS Cloud";
-category.Featured = false;
+using (var connection = new SqlConnection(connectionString))
+{
+    UpdateCategory(connection);
+    ListCategories(connection);
+    //CreateCategory(connection);
+}
 
-// SQL injection 'INSERT INTO Users VALUES()'
 
-var insertSql = $@"INSERT INTO 
+static void ListCategories(SqlConnection connection) 
+{
+    var categories = connection.Query<Category>("SELECT [Id], [Title] FROM [Category]");
+    foreach (var item in categories)
+    {
+        Console.WriteLine($"{item.Id} - {item.Title}");
+    }
+}
+
+static void CreateCategory(SqlConnection connection)
+{
+    var category = new Category();
+    category.Id = Guid.NewGuid();
+    category.Title = "Amazon AWS";
+    category.Url = "amazon";
+    category.Description = "Categoria destinada a serviços do AWS";
+    category.Order = 8;
+    category.Summary = "AWS Cloud";
+    category.Featured = false;
+
+    // SQL injection 'INSERT INTO Users VALUES()'
+
+    var insertSql = $@"INSERT INTO 
         [Category] 
     VALUES(
         @Id, 
@@ -28,9 +47,6 @@ var insertSql = $@"INSERT INTO
         @Description, 
         @Featured)";
 
-
-using (var connection = connectionString)
-{
     var rows = connection.Execute(insertSql, new
     {
         category.Id,
@@ -42,13 +58,16 @@ using (var connection = connectionString)
         category.Featured
     });
     Console.WriteLine($"{rows} linhas inseridas");
-
-    var categories = connection.Query<Category>("SELECT [Id], [Title] FROM [Category]");
-    foreach(var item in categories)
-    {
-        Console.WriteLine($"{item.Id} - {item.Title}");
-    }
-    
 }
 
-Console.WriteLine("Hello, World!");
+static void UpdateCategory(SqlConnection connection)
+{
+    var updateQuery = "UPDATE [Category] SET [Title]=@title WHERE [Id]=@id";
+    var rows = connection.Execute(updateQuery, new
+    {
+        id = new Guid("9f3407aa-11ae-4621-a2ef-2028b85507c4"),
+        title = "Frontend 2022"
+    });
+
+    Console.WriteLine($"{rows} registros atualizadas");
+}
