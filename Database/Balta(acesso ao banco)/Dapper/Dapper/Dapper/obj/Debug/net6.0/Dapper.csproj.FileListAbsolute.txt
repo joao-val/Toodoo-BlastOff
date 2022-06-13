@@ -1,0 +1,5 @@
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Balta(acesso ao banco)\Dapper\Dapper\Dapper\obj\Debug\net6.0\Dapper.csproj.AssemblyReference.cache
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Balta(acesso ao banco)\Dapper\Dapper\Dapper\obj\Debug\net6.0\Dapper.GeneratedMSBuildEditorConfig.editorconfig
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Balta(acesso ao banco)\Dapper\Dapper\Dapper\obj\Debug\net6.0\Dapper.AssemblyInfoInputs.cache
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Balta(acesso ao banco)\Dapper\Dapper\Dapper\obj\Debug\net6.0\Dapper.AssemblyInfo.cs
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Balta(acesso ao banco)\Dapper\Dapper\Dapper\obj\Debug\net6.0\Dapper.csproj.CoreCompileInputs.cache
