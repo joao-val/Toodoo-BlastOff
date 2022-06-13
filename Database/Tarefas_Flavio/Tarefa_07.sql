@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS tarefa_07;
 
-CREATE DATABASE IF NOT EXISTS tarefa_07;
+CREATE DATABASE tarefa_07;
 
 USE tarefa_07;
 
@@ -56,11 +56,13 @@ INSERT INTO Mission (Mission_Date, Nome, Mission_Local, Duration, IdVillain) VAL
 INSERT INTO Agent_Has_Mission (IdAgent, IdMission) VALUES
 (5, 1), (3, 2), (1, 3), (4, 2), (5, 4);
 
-SELECT A.Nome AS "Hero", A.Email, M.Nome AS 'Mission', M.Mission_Date FROM Agent AS A JOIN Mission AS M JOIN Agent_Has_Mission AS X 
+SELECT A.Nome AS "Hero", A.Email, M.Nome AS 'Mission', M.Mission_Date FROM Agent AS A 
+JOIN Mission AS M JOIN Agent_Has_Mission AS X 
 ON  X.IdAgent = A.Id AND X.IdMission = M.Id;
 
 SELECT M.Nome AS "Mission", M.Mission_Date, M.Duration, V.Nome AS 'Villain' FROM Mission AS M JOIN Villain AS V 
 ON M.Id = V.Id;
 
-SELECT A.Nome AS Hero, M.Nome AS Mission, V.Nome AS 'Villain' FROM Agent AS A JOIN Mission AS M JOIN Villain AS V JOIN Agent_Has_mission AS X
+SELECT A.Nome AS Hero, M.Nome AS Mission, V.Nome AS 'Villain' FROM Agent AS A 
+JOIN Mission AS M JOIN Villain AS V JOIN Agent_Has_mission AS X
 ON  X.IdAgent = A.Id AND X.IdMission = M.Id AND M.IdVillain = V.Id;

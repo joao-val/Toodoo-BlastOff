@@ -1,4 +1,5 @@
 USE aula;
+SET GLOBAL log_bin_trust_function_creators =1;
 
 DELIMITER $$
 CREATE FUNCTION buy_change(cost FLOAT, payment FLOAT) RETURNS VARCHAR(20)
@@ -11,6 +12,6 @@ BEGIN
 	ELSE 
 		SET result = "Change";
     end if;       
-	return CONCAT(result);	
+	return result;	
 END $$
 DELIMITER ;

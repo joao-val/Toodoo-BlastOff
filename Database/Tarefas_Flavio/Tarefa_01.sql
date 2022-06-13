@@ -1,3 +1,4 @@
+
 USE c207;
 DROP TABLE tb_client;
 CREATE TABLE tb_client(

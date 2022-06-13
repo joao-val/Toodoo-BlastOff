@@ -1,6 +1,6 @@
 USE c207;
 
-DROP TABLE tb_empresa;
+DROP TABLE IF EXISTS tb_empresa;
 
 CREATE TABLE tb_empresa(
 	Registration INT AUTO_INCREMENT PRIMARY KEY,
@@ -20,8 +20,11 @@ INSERT INTO tb_empresa( Nome, CPF, Position, Project_quantity) VALUES
 ('Jane', '333.333.333-33', 'Developer', 5);
 
 # B)
-SELECT Nome, CPF, Position, min(Project_quantity) FROM tb_empresa;
-SELECT Nome, CPF, Position, max(Project_quantity) FROM tb_empresa;
+SELECT Nome, CPF, Position, Project_quantity FROM tb_empresa
+WHERE Project_quantity = (SELECT min(Project_quantity) FROM tb_empresa);
+
+SELECT Nome, CPF, Position, Project_quantity FROM tb_empresa
+WHERE Project_quantity = (SELECT max(Project_quantity) FROM tb_empresa);
 
 # C)
 SELECT avg(Project_quantity) AS Project_Average FROM tb_empresa WHERE Position <> 'GP';
