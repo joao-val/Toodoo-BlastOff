@@ -19,7 +19,8 @@ using (var connection = new SqlConnection(connectionString))
     //ExecuteReadProcedure(connection);
     //ExecuteScalar(connection);
     //ReadView(connection);
-    OneToOne(connection);
+    //OneToOne(connection);
+    OneToMany(connection);
 }
 
 
@@ -244,5 +245,49 @@ static void OneToOne(SqlConnection connection)
     foreach(var item in items)
     {
         Console.WriteLine($"{item.Title} - Curso: {item.Course.Title}");
+    }
+}
+
+static void OneToMany(SqlConnection connection)
+{
+    var sql = @"
+        SELECT 
+            [Career].[Id],
+            [Career].[Title],
+            [CareerItem].[CareerId],
+            [CareerItem].[Title]
+        FROM 
+            [Career] 
+        INNER JOIN 
+            [CareerItem] ON [CareerItem].[CareerId] = [Career].[Id]
+        ORDER BY
+            [Career].[Title]";
+
+    var careers = new List<Career>();
+
+    var items = connection.Query<Career, CareerItem, Career>(
+        sql,
+        (career, item) => {
+            var car = careers.Where(x => x.Id == career.Id).FirstOrDefault();
+            if (car == null)
+            {
+                car = career;
+                car.Items.Add(item);
+                careers.Add(car);
+            }
+            else
+            {
+                car.Items.Add(item);
+            }
+            return career;
+        }, splitOn: "CareerId");
+
+    foreach (var career in careers)
+    {
+        Console.WriteLine($"{career.Title} ");
+        foreach (var item in career.Items)
+        {
+            Console.WriteLine($" - {item.Title} ");
+        }
     }
 }
