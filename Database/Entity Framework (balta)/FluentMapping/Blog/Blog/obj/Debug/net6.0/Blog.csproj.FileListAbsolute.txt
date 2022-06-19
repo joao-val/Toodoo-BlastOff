@@ -166,3 +166,5 @@ L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\B
 L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\Blog\Blog\obj\Debug\net6.0\Blog.pdb
 L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\Blog\Blog\obj\Debug\net6.0\Blog.genruntimeconfig.cache
 L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\Blog\Blog\obj\Debug\net6.0\ref\Blog.dll
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\Blog\Blog\bin\Debug\net6.0\Humanizer.dll
+L:\Joao\CSharp\Toodoo\BlastOff\Database\Entity Framework (balta)\FluentMapping\Blog\Blog\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
